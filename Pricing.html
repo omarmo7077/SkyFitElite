@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sky Fit Gym Elite</title>
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/css2.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="m-0 display-4 font-weight-bold text-uppercase text-white">Skyfit gym <em>elite</em> </h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div style="border-radius: 50px;" class="navbar-nav ml-auto p-4 bg-secondary">
+                    <a href="index.html" class="nav-item nav-link ">Home</a>
+                    <a href="about.html" class="nav-item nav-link ">About Us</a>
+                    <a href="Pricing.html" class="nav-item nav-link active">Pricing</a>
+
+                    <a href="contact.html" class="nav-item nav-link">Contact us</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                            aria-expanded="false">Media</a>
+                        <div style="border-radius: 20px;" class="dropdown-menu text-capitalize">
+                            <a href="videos.html" class="dropdown-item">Videos</a>
+                            <a href="Photos.html" class="dropdown-item">Photos</a>
+                        </div>
+                    </div>
+                    <a href="./App.html" class="nav-item nav-link">Get App</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-0">
+        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5"
+            style="min-height: 400px">
+            <h4 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase font-weight-bold">Pricing</h4>
+            <div class="d-inline-flex">
+                <a onclick="GymPrice()" class="nav-link " href="#">Gym</a>
+                <a onclick="CrossFitPrice()" class="nav-link" href="#">Crossfit</a>
+                <a onclick="KickBoxingPrice()" class="nav-link" href="#">KickBoxing</a>
+                <a onclick="GymandcrossPrice()" class="nav-link" href="#Gym & Crossfit">Gym & Crossfit</a>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Toogle -->
+    <!-- 
+    <div class="toggle d-flex justify-content-center mb-5">
+        <label>Monthly</label>
+        <div class="toggle-btn">
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label class="sub" id="sub" for="checkbox">
+                <div class="circle"></div>
+            </label>
+        </div>
+        <label>Annually</label>
+
+    </div>
+    -->
+
+
+
+    <!-- Cards -->
+    <section class="pricingsection" id="Gymsection">
+        <div class=" d-flex justify-content-center">
+
+            <h1 class="h1Center">Gym</h1>
+        </div>
+
+        <div class="cards">
+            <div class="card shadow">
+                <ul>
+                    <li class="pack">1 Month</li>
+                    <li id="1Month" class="price bottom-bar">500E&pound;</li>
+
+                </ul>
+            </div>
+
+            <div class="card shadow">
+                <ul>
+                    <li class="pack">3 Month</li>
+                    <li id="3Month" class="price bottom-bar">1500E&pound;</li>
+
+                </ul>
+            </div>
+            <div class="card shadow">
+                <ul>
+                    <li class="pack">6 Month</li>
+                    <li id="master" class="price bottom-bar">3000E&pound;</li>
+
+                </ul>
+            </div>
+            <div class="card active">
+                <ul>
+                    <li class="pack">1 year</li>
+                    <li id="professional" class="price bottom-bar">6000E&pound;</li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section style="display: none;" class="pricingsection" id="CrossfitSection">
+        <div class=" d-flex justify-content-center">
+
+            <h1 class="h1Center">Crossfit</h1>
+
+        </div>
+        <div class="cards">
+
+            <div class="card shadow">
+                <ul>
+                    <li class="pack">1 Month</li>
+                    <li id="1Month" class="price bottom-bar">500E&pound;</li>
+                    <li class="bottom-bar">500 GB Storage</li>
+                    <li class="bottom-bar">2 Users Allowed</li>
+                    <li class="bottom-bar">Send up to 3 GB</li>
+                    <li><button class="btnn">Learn More</button></li>
+                </ul>
+            </div>
+
+            <div class="card shadow">
+                <ul>
+                    <li class="pack">3 Month</li>
+                    <li id="3Month" class="price bottom-bar">1500E&pound;</li>
+                    <li class="bottom-bar">2 TB Storage</li>
+                    <li class="bottom-bar">10 Users Allowed</li>
+                    <li class="bottom-bar">Send up to 20 GB</li>
+                    <li><button class="btnn">Learn More</button></li>
+                </ul>
+            </div>
+            <div class="card shadow">
+                <ul>
+                    <li class="pack">6 Month</li>
+                    <li id="master" class="price bottom-bar">3000E&pound;</li>
+                    <li class="bottom-bar">2 TB Storage</li>
+                    <li class="bottom-bar">10 Users Allowed</li>
+                    <li class="bottom-bar">Send up to 20 GB</li>
+                    <li><button class="btnn">Learn More</button></li>
+                </ul>
+            </div>
+            <div class="card active">
+                <ul>
+                    <li class="pack">1 year</li>
+                    <li id="professional" class="price bottom-bar">6000E&pound;</li>
+                    <li class="bottom-bar">1 TB Storage</li>
+                    <li class="bottom-bar">5 Users Allowed</li>
+                    <li class="bottom-bar">Send up to 10 GB</li>
+                    <li><button class="btnn active-btn">Learn More</button></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section style="display: none;" class="pricingsection" id="KickBoxingSection">
+        <div class=" d-flex justify-content-center">
+
+            <h1 class="h1Center">KickBoxing</h1>
+        </div>
+        <div class="cards">
+            <div class="card shadow">
+                <ul>
+                    <li class="pack">1 Month</li>
+                    <li id="1Month" class="price bottom-bar">500E&pound;</li>
+                    <li class="bottom-bar">500 GB Storage</li>
+                    <li class="bottom-bar">2 Users Allowed</li>
+                    <li class="bottom-bar">Send up to 3 GB</li>
+                    <li><button class="btnn">Learn More</button></li>
+                </ul>
+            </div>
+
+            <div class="card shadow">
+                <ul>
+                    <li class="pack">3 Month</li>
+                    <li id="3Month" class="price bottom-bar">1500E&pound;</li>
+                    <li class="bottom-bar">2 TB Storage</li>
+                    <li class="bottom-bar">10 Users Allowed</li>
+                    <li class="bottom-bar">Send up to 20 GB</li>
+                    <li><button class="btnn">Learn More</button></li>
+                </ul>
+            </div>
+            <div class="card shadow">
+                <ul>
+                    <li class="pack">6 Month</li>
+                    <li id="master" class="price bottom-bar">3000E&pound;</li>
+                    <li class="bottom-bar">2 TB Storage</li>
+                    <li class="bottom-bar">10 Users Allowed</li>
+                    <li class="bottom-bar">Send up to 20 GB</li>
+                    <li><button class="btnn">Learn More</button></li>
+                </ul>
+            </div>
+            <div class="card active">
+                <ul>
+                    <li class="pack">1 year</li>
+                    <li id="professional" class="price bottom-bar">6000E&pound;</li>
+                    <li class="bottom-bar">1 TB Storage</li>
+                    <li class="bottom-bar">5 Users Allowed</li>
+                    <li class="bottom-bar">Send up to 10 GB</li>
+                    <li><button class="btnn active-btn">Learn More</button></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Card -->
+    <!-- Page Header End -->
+
+
+
+
+
+    <!-- Footer Start -->
+    <div class="footer container-fluid mt-5 py-5 px-sm-3 px-md-5 text-white">
+
+        <div class="container border-top border-dark pt-5">
+
+
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/main2.js"></script>
+    <script>
+
+        function GymPrice() {
+            document.getElementById("Gymsection").style.display = "block";
+            document.getElementById("CrossfitSection").style.display = "none";
+            document.getElementById("KickBoxingSection").style.display = "none";
+
+        }
+        function CrossFitPrice() {
+            document.getElementById("CrossfitSection").style.display = "block";
+            document.getElementById("Gymsection").style.display = "none";
+            document.getElementById("KickBoxingSection").style.display = "none";
+
+        }
+        function KickBoxingPrice() {
+            document.getElementById("KickBoxingSection").style.display = "block";
+            document.getElementById("CrossfitSection").style.display = "none";
+            document.getElementById("Gymsection").style.display = "none";
+
+        }
+    </script>
+
+
+</body>
+
+</html>
